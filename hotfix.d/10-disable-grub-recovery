@@ -1,0 +1,4 @@
+#!/bin/bash
+
+sed -i -e 's/#GRUB_DISABLE_RECOVERY="true"/GRUB_DISABLE_RECOVERY="true"/' /etc/default/grub
+
