@@ -1,3 +1,9 @@
+huayra-hotfix (1.1) testing; urgency=low
+
+  * comprobacion de que exista /etc/default/grub 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 28 May 2013 18:16:33 -0300
+
 huayra-hotfix (1.0) testing; urgency=low
 
   * Initial release

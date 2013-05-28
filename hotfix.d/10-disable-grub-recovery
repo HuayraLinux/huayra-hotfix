@@ -1,4 +1,8 @@
 #!/bin/bash
 
-sed -i -e 's/#GRUB_DISABLE_RECOVERY="true"/GRUB_DISABLE_RECOVERY="true"/' /etc/default/grub
+if [ -f /etc/default/grub ]; then
+  sed -i -e 's/#GRUB_DISABLE_RECOVERY="true"/GRUB_DISABLE_RECOVERY="true"/' /etc/default/grub
+else
+  echo "No existe /etc/default/grub"
+fi
 
