@@ -1,0 +1,14 @@
+Source: huayra-hotfix
+Section: system
+Priority: extra
+Maintainer: Fernando Toledo <ragnarok@docksud.com.ar>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Homepage: http://huayra.conectarigualdad.gob.ar
+
+Package: huayra-hotfix
+Architecture: all
+Depends: ${misc:Depends},
+Description: Hotfixes para Huayra
+ Este paquete contiene scripts para correccion de errores.
+
