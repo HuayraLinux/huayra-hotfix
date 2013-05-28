@@ -8,7 +8,7 @@ Homepage: http://huayra.conectarigualdad.gob.ar
 
 Package: huayra-hotfix
 Architecture: all
-Depends: ${misc:Depends},
+Depends: ${misc:Depends}, debianutils (>= 4.3.2)
 Description: Hotfixes para Huayra
  Este paquete contiene scripts para correccion de errores.
 

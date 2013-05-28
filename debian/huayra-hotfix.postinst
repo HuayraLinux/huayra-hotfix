@@ -3,7 +3,7 @@ set -e
 
 if [ "$1" = "configure" ]; then
 
-  exit 0
+  run-parts --report /usr/share/huayra/hotfix.d
 
 fi
 
