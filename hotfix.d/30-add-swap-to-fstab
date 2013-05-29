@@ -1,0 +1,22 @@
+#!/bin/bash
+
+if [ ! -f /etc/fstab ]; then
+	echo No existe /etc/fstab
+	exit 0
+fi
+
+if ! command -v blkid > /dev/null ; then
+	echo No existe blkid
+	exit 0
+fi
+
+
+SWAP_UUID=`blkid -t TYPE=swap -o value | head -n 1`
+grep $SWAP_UUID /etc/fstab > /dev/null
+if [ $? -eq 1 ]; then
+	# Si el uuid de swap no aparece en /etc/fstab, agregarlo
+	echo Agregando entrada a fstab
+	echo "UUID=$SWAP_UUID none            swap    sw              0       0" >> /etc/fstab
+fi
+
+exit 0
