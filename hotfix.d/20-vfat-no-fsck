@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if [ -f /etc/fstab ]; then
+  sed -i -e 's/LABEL=DATOS[ \t]\+\/media\/DATOS[ \t]\+vfat[ \t]\+umask=000,errors=remount-ro[ \t]\+0[ \t]\+1/LABEL=DATOS \/media\/DATOS	vfat	umask=000,errors=remount-ro 0	0/' /etc/fstab
+else
+  echo "No existe /etc/fstab"
+fi
