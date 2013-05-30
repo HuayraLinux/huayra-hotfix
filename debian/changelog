@@ -1,4 +1,4 @@
-huayra-hotfix (1.1+nmu2) UNRELEASED; urgency=low
+huayra-hotfix (1.1+nmu2) testing; urgency=low
 
   * 30-add-swap-to-fstab: Agregar a fstab las entradas para las particiones
     de swap que todavia no figuren en fstab
