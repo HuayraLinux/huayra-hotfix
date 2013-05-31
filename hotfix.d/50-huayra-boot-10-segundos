@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ -f /etc/default/grub ]; then
+  sed -i -e 's/GRUB_TIMEOUT=30/GRUB_TIMEOUT=10/' /etc/default/grub
+else
+  echo "No existe /etc/default/grub"
+fi
+
