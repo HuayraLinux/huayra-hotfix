@@ -1,0 +1,6 @@
+#!/bin/bash
+
+if [ -f /home/alumno/.config/autostart/huayra-bullets.desktop ]; then
+	rm -rf /home/alumno/.config/autostart/huayra-bullets.desktop
+	rm -rf /home/alumno/.huayra-bullets-noautostart
+fi
