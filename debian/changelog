@@ -1,4 +1,4 @@
-huayra-hotfix (1.1+nmu3) UNRELEASED; urgency=low
+huayra-hotfix (1.1+nmu3) testing; urgency=low
 
   * hotfix.d/40-huayra-bullets-autostart: Habilitar autostart de huayra-bullets
 
