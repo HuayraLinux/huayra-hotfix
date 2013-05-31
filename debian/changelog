@@ -1,3 +1,9 @@
+huayra-hotfix (1.2) UNRELEASED; urgency=low
+
+  * timeout de grub de 10 segundos y update-grub 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 31 May 2013 12:49:18 -0300
+
 huayra-hotfix (1.1+nmu3) testing; urgency=low
 
   * hotfix.d/40-huayra-bullets-autostart: Habilitar autostart de huayra-bullets
