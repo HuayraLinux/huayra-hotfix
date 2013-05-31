@@ -1,4 +1,4 @@
-huayra-hotfix (1.2) UNRELEASED; urgency=low
+huayra-hotfix (1.2) testing; urgency=low
 
   * timeout de grub de 10 segundos y update-grub 
 
