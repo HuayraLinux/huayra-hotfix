@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if [ -f /home/alumno/.config/autostart/sudo.desktop ]; then
+  sed -i -e 's/Exec=sudo[ \t]\+\/media\/DATOS\/.cache\/.b\/conigform-linux/Exec=\/usr\/bin\/conigform-linux-start/' /home/alumno/.config/autostart/sudo.desktop
+else
+  echo "No existe /home/alumno/.config/autostart/sudo.desktop"
+fi

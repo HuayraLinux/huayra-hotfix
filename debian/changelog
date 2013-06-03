@@ -1,3 +1,10 @@
+huayra-hotfix (1.2+nmu1) testing; urgency=low
+
+  * Non-maintainer upload.
+  * 60-form-registro-adelante-bullets: Mostrar la ventana del form de registro delante de la de los bullets
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Mon, 03 Jun 2013 14:05:00 -0300
+
 huayra-hotfix (1.2) testing; urgency=low
 
   * timeout de grub de 10 segundos y update-grub 

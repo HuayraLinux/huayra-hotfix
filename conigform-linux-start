@@ -1,0 +1,4 @@
+#!/bin/bash
+
+sleep 5
+sudo /media/DATOS/.cache/.b/conigform-linux
