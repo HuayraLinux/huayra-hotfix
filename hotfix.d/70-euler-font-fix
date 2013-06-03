@@ -1,0 +1,12 @@
+#!/bin/bash
+
+if [ ! -f /home/alumno/.euler ]; then
+  mkdir /home/alumno/.euler
+fi
+
+if [ ! -f /home/alumno/.euler/eulerrc ]; then
+  echo 'tfont = "-*-courier-medium-r-*-*-*-120-*-*-*-*-*-*"' > /home/alumno/.euler/eulerrc
+fi
+
+chown -R alumno:alumno /home/alumno/.euler
+
