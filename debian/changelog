@@ -1,3 +1,10 @@
+huayra-hotfix (1.2+nmu5) testing; urgency=low
+
+  * Non-maintainer upload.
+  * Fix 70-euler-font-fix: problema al chequear existencia de /home/alumno/.euler
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Thu, 06 Jun 2013 14:09:37 -0300
+
 huayra-hotfix (1.2+nmu4) testing; urgency=low
 
   * Non-maintainer upload.

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ ! -f /home/alumno/.euler ]; then
+if [ ! -e /home/alumno/.euler ]; then
   mkdir /home/alumno/.euler
 fi
 
