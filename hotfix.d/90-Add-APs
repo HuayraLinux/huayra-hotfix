@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cp /usr/share/huayra-hotfix/APs/* /etc/NetworkManager/system-connections/
+echo "Agregados los APs"

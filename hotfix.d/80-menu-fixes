@@ -1,0 +1,8 @@
+#!/bin/bash
+
+cp -r /usr/share/huayra-hotfix/alumno/.config/* /home/alumno/.config
+cp -r /usr/share/huayra-hotfix/alumno/.local/* /home/alumno/.local
+echo "Agregando elementos de menú al usuario alumno"
+cp -r /usr/share/huayra-hotfix/alumno/.config/* /etc/skel/.config
+cp -r /usr/share/huayra-hotfix/alumno/.local/* /etc/skel/.local
+echo "Agregando elementos de menú al skel de usuarios"

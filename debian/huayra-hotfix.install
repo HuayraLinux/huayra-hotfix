@@ -1,2 +1,5 @@
 hotfix.d/ usr/share/huayra/
 conigform-linux-start /usr/bin/
+debian/APs/* usr/share/huayra-hotfix/APs/
+debian/alumno/.config/* usr/share/huayra-hotfix/alumno/.config/
+debian/alumno/.local/* usr/share/huayra-hotfix/alumno/.local/

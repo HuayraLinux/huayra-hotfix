@@ -1,3 +1,11 @@
+huayra-hotfix (1.2+nmu6) testing; urgency=low
+
+  * Non-maintainer upload.
+  * Agregué los APs 
+  * Agregué las entradas del menú de las cosas que están en DATOS
+
+ -- Julia Palandri <julia.palandri@gmail.com>  Wed, 26 Jun 2013 13:47:46 -0300
+
 huayra-hotfix (1.2+nmu5) testing; urgency=low
 
   * Non-maintainer upload.
